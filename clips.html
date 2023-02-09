@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>
+    CLIPS
+  </title>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background-image: url("songbg.jpg");
+}
+
+.header {
+  padding: 150px;
+  text-align: center;
+  background: white;
+  background-image: url("songsbg4.jpg");
+  background-size: cover;
+  color: white;
+
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.leftcolumn {   
+  float: left;
+  width: 100%;
+}
+
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1> CLIPS </h1>
+  <h3> iba't - ibang clips from different games </h3>
+</div>
+
+<div class="topnav">
+  <a href="#">Home</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Bawat Piyesa</h2>
+      <h4>Munimuni</h4>
+      <div>
+          <video src="" width=600 length=500 controls>Munimuni Bawat Piyesa</video>
+      </div>
+    </div>
+    <div class="card">
+      <h2>Tahanan</h2>
+      <h4>Munimuni</h4>
+      <div>
+        <video src="" width=600 length=500 controls>Munimuni Tahanan</video>
+      </div>
+    </div>
+    <div class="card">
+        <h2>Adam Sandler</h2>
+        <h4>Grow Old With You</h4>
+        <div>
+          <video src="" width=600 length=500 controls>Grow Old With You</video>
+        </div>
+      </div>
+      <div class="card">
+        <h2>With A Smile</h2>
+        <h4>Eraserheads</h4>
+        <div>
+          <video src="" width=600 length=500 controls>With A Smile</video>
+        </div>
+      </div>
+      <div class="card">
+        <h2>Yellow</h2>
+        <h4>Coldplay</h4>
+        <div>
+          <video src="" width=600 length=500 controls>Yellow Coldplay</video>
+        </div>
+      </div>
+</div>
+</body>
+</html>
